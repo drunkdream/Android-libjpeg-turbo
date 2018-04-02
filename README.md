@@ -1,2 +1,7 @@
 # Android-libjpeg-turbo
-libjpeg-turbo for Android
+build libjpeg-turbo for Android
+
+usage: sh build.sh arm/arm64/x86/x86_64/all
+
+
+
