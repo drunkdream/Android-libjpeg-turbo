@@ -1,13 +1,14 @@
 # Android-libjpeg-turbo
-build libjpeg-turbo for Android
+build libjpeg-turbo for Android(include .so and .a)
 
 
 usage: 
 
 ```bash
+$ git submodule init
+$ git submodule update
 $ export NDK_PATH=/path/to/ndk
-$ sh build.sh arm/arm64/x86/x86_64/all
+$ sh build.sh
 ```
 
-
-
+output files are in `out` dir
