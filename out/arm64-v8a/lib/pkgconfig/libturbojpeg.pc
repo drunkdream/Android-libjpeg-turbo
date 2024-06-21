@@ -1,0 +1,10 @@
+prefix=/data/github/drunkdream/Android-libjpeg-turbo/out/arm64-v8a
+exec_prefix=/data/github/drunkdream/Android-libjpeg-turbo/out/arm64-v8a
+libdir=/data/github/drunkdream/Android-libjpeg-turbo/out/arm64-v8a/lib
+includedir=/data/github/drunkdream/Android-libjpeg-turbo/out/arm64-v8a/include
+
+Name: libturbojpeg
+Description: A SIMD-accelerated JPEG codec that provides the TurboJPEG API
+Version: 3.0.4
+Libs: -L${libdir} -lturbojpeg
+Cflags: -I${includedir}

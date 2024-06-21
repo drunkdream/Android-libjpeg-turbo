@@ -1,0 +1,10 @@
+prefix=/data/github/drunkdream/Android-libjpeg-turbo/out/armeabi-v7a
+exec_prefix=/data/github/drunkdream/Android-libjpeg-turbo/out/armeabi-v7a
+libdir=/data/github/drunkdream/Android-libjpeg-turbo/out/armeabi-v7a/lib
+includedir=/data/github/drunkdream/Android-libjpeg-turbo/out/armeabi-v7a/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 3.0.4
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}
